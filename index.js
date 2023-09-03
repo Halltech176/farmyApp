@@ -63,7 +63,7 @@ app.use("/api/v1/farmproducts", farmProductRoutes);
 app.use("/api/v1/user", userRoutes);
 app.use("/api/v1/waitlist", waitlistRoutes);
 app.use("/api/v1/store", storeRoutes);
-r;
+
 
 app.use("/api/v1/storeproducts", storeProductRoute);
 app.use(notFound);
